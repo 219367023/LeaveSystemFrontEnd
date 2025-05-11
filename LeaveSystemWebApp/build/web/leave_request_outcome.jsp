@@ -112,6 +112,15 @@
         <p>
             Leave request <%=leaveId%> has been sent, starting on <%=startDate%> and ending on <%=endDate%>.
         </p>
+        
+        <p>
+            <a href="login_outcome_menu.html">Back to the menu.</a>  
+             
+        </p>
+        <br>
+        <p>
+            <a href="log_out.html">To log out.</a>
+        </p>
         </div>
         <footer>
             <p>
