@@ -65,6 +65,20 @@ and open the template in the editor.
             input[type="submit"]:hover{
                 background-color: #0056b3; 
             }
+            a{
+                width: 100%;
+                padding: 10px;
+                background-color: #007BFF;
+                border: none;
+                color: white;
+                font-weight: bold;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-top: 15px;
+            }
+            a:hover{
+                background-color: #0056b3; 
+            }
             footer{
                 background-color: #007BFF;
                 color: white;
@@ -97,9 +111,9 @@ and open the template in the editor.
                 <tr>
                     <td>Role:</td>
                     <td>
-                        <select>
-                            <option>Employee</option>
-                            <option>Manager</option>
+                        <select name="role">
+                            <option value="employee">Employee</option>
+                            <option value="manager">Manager</option>
                         </select>
                     </td>
                 </tr>
