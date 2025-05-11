@@ -1,2 +1,2 @@
 # LeaveSystemFrontEnd
-front end for the Leave Management System
+Front end for the Leave Management System
